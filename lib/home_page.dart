@@ -38,11 +38,19 @@ class _HomePageState extends State<HomePage> {
             child: Stack(
               children: [
                 Container(
-                  height: 500,
+                  height: 550,
                   width: 300,
                   decoration: BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.circular(20),
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.grey.withOpacity(0.5),
+                        spreadRadius: 5,
+                        blurRadius: 7,
+                        offset: Offset(0, 3), // changes position of shadow
+                      ),
+                    ],
                   ),
 
 

@@ -1,4 +1,5 @@
 import 'package:donextui5/home_page.dart';
+import 'package:donextui5/new_home_page.dart';
 import 'package:flutter/material.dart';
 
 void main(){
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: NewHomePage(),
     );
   }
 }
